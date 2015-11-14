@@ -6,7 +6,7 @@
   "main": "./lib/index.js",
   "dependencies": {
     "read-package-tree": "^5.1.2",
-    "semver": "^50.0.3"
+    "semver": "^5.0.3"
   },
   "devDependencies": {
     "standard": "^4.5.4",
