@@ -2,7 +2,8 @@
 var check = require('../lib/')
 var path = require('path')
 
-var projectDir = path.resolve(process.argv[2])
+var specifiedDir = process.argv[2] || process.cwd()
+var projectDir = path.resolve(specifiedDir)
 
 check(projectDir, function (errors) {
   if (!errors || !errors.length) return;
