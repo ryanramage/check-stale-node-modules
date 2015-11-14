@@ -1,0 +1,27 @@
+{
+  "name": "npm-install-warning",
+  "version": "1.0.0",
+  "description": "Generate a warning when your node_modules does not match your package.json",
+  "bin": "./bin/cli.js",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "read-package-tree": "^5.1.2",
+    "semver": "^5.0.3"
+  },
+  "devDependencies": {
+    "standard": "^4.5.4",
+    "tap": "^0.4.12",
+    "tape": "^2.14.0"
+  },
+  "scripts": {
+    "test": "standard && ./node_modules/.bin/tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github./ryanramage/npm-install-warning.git"
+  },
+  "bugs": {
+    "url": "https://github./ryanramage/npm-install-warning/issues"
+  },
+  "homepage": "https://github./ryanramage/npm-install-warning"
+}
