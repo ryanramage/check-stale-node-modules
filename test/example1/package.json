@@ -1,0 +1,9 @@
+{
+  "name": "example1",
+  "version": "1.0.0",
+  "description": "Generate a warning when your node_modules does not match your package.json",
+  "dependencies": {
+    "m1": "^1.0.0",
+    "m2": "^1.1.0"
+  }
+}

@@ -5,6 +5,7 @@
   "bin": "./bin/cli.js",
   "main": "./lib/index.js",
   "dependencies": {
+    "rc": "^1.1.5",
     "read-package-tree": "^5.1.2",
     "semver": "^5.0.3"
   },
