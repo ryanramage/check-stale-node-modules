@@ -35,6 +35,17 @@ dependency semver does not satisfy ^50.0.3
 run `npm install`
 ```
 
+## Tooling Suggestion
+
+Add this to your dev watch tooling. Because you will usually restart that after a git pull
+
+Eg
+
+```
+  scripts: {
+     "watch": "check-stale-node-modules && watchify main.js -o static/bundle.js"
+  }
+```
 
 ## License
 
