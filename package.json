@@ -1,5 +1,5 @@
 {
-  "name": "npm-install-warning",
+  "name": "check-stale-node-modules",
   "version": "1.0.0",
   "description": "Generate a warning when your node_modules does not match your package.json",
   "bin": "./bin/cli.js",
@@ -19,10 +19,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github./ryanramage/npm-install-warning.git"
+    "url": "https://github./ryanramage/check-stale-node-modules.git"
   },
   "bugs": {
-    "url": "https://github./ryanramage/npm-install-warning/issues"
+    "url": "https://github./ryanramage/check-stale-node-modules/issues"
   },
-  "homepage": "https://github./ryanramage/npm-install-warning"
+  "homepage": "https://github./ryanramage/check-stale-node-modules"
 }
