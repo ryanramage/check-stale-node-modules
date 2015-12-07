@@ -1,6 +1,6 @@
 {
   "name": "check-stale-node-modules",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate a warning when your node_modules does not match your package.json",
   "bin": "./bin/cli.js",
   "main": "./lib/index.js",
